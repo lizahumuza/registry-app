@@ -25,7 +25,9 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fff;
+  margin: 20px;
+  
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +37,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+.registry{
+  color: #fff;
+}
+
+.registry form{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.registry-input{
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+.registry-input-text{
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+ul{
+margin-top: 50px;
+list-style-type: square;
+max-width: 400px;
+margin: auto;
+}
+
+ul li{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid #000;
+}
+
+body{
+  background-color: #333;
 }
